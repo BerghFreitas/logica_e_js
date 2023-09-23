@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>valor por cliente exercicio</title>
+</head>
+<body>
+    <p>esse programa diz quanto cada cliente tera que pagar separadamente</p>
+    <script>
+        let valorTotal = Number(window.prompt('quanto deu a conta?'))
+        let clintesTotais = Number(window.prompt('quantos clientes'))
+        let valorPorCliente = valorTotal / clintesTotais
+        window.alert(`Valor da conta R$: ${valorTotal.toFixed(2)} \nClintes Totais: ${clintesTotais} \nValor por cliente R$: ${valorPorCliente.toFixed(2)}`)
+    </script>
+</body>
+</html>
