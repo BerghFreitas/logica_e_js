@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var preco = Number(window.prompt('preço'))
+        var preco_desc = preco - 10 * preco / 100 
+        document.write(`preço R$ : ${preco.toFixed(2)}`)
+        document.write(` a vista R$ : ${preco_desc.toFixed(2)}`)
+        document.write(` ou 3x de R$ : ${(preco / 3).toFixed(2)}`)
+    </script>
+</body>
+</html>
