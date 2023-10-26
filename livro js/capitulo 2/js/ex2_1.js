@@ -8,3 +8,9 @@ const nome = frm.inNome.value //obtem o nome digitado no form
 resp.innerText = `Olá ${nome}` //exibe a resposta do programa
 e.preventDefault() //evita o envio do formulario
 })
+
+
+var n = 10 / 2 * Math.sqrt(9) - 4
+console.log(n)
+
+
