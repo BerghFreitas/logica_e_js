@@ -11,6 +11,7 @@ frm.addEventListener ('submit', (e) => {
         resp.style.color = "blue"
     } else {
         resp.innerText = `nao temos a cor ${cor}`
+        resp.style.color = "red"
     }
 
     
