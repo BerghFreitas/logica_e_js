@@ -22,7 +22,7 @@ frm.addEventListener ('submit', (e) => {
     }) //faz o evendo de reset agir
 })*/ 
 const peso = masculino ? 22 * Math.pow (altura,2) : 21 * Math.pow (altura , 2)
-resp.innerText = `seu peso ideal é ${peso}`
+resp.innerText = `seu peso ideal é ${peso.toFixed(2)}`
 {
     frm.addEventListener ('reset', () => {
         resp.innerText = ""
